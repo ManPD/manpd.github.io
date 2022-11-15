@@ -2,6 +2,7 @@
 layout: default
 title: Configuration
 nav_order: 2
+nav_exclude: true
 ---
 
 # Configuration
@@ -77,11 +78,11 @@ See [the Code documentation]({{ site.baseurl }}{% link docs/ui-components/code.m
 ```yaml
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "Github Repository":
+    - "https://github.com/ManPD/manpd.github.io"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 ```
 
 ## Heading anchor links
@@ -114,11 +115,12 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_link_text: Edit this page on GitHub.
+gh_edit_repository: "https://github.com/ManPD/manpd.github.io"
+
+gh_edit_branch: main # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_view_mode: tree # "tree" or "edit" if you want the user to jump into the editor immediately
 ```
 
 _note: `footer_content` is deprecated, but still supported. For a better experience we have moved this into an include called `_includes/footer_custom.html` which will allow for robust markup / liquid-based content._

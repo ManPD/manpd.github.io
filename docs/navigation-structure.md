@@ -2,6 +2,7 @@
 layout: default
 title: Navigation Structure
 nav_order: 5
+nav_exclude: true
 ---
 
 # Navigation Structure
@@ -243,8 +244,8 @@ To add auxiliary links to your site (in the upper right on all pages), add it to
 ```yaml
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "GitHub Repository":
+    - "//github.com/manpd.github.io"
 ```
 
 ---
@@ -260,8 +261,8 @@ External links will appear in the navigation after the links to ordinary pages, 
 ```yaml
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+  - title: GitHub Repository
+    url: https://github.com/ManPD/manpd.github.io
     hide_icon: false # set to true to hide the external link icon - defaults to false
 ```
 
