@@ -100,7 +100,7 @@ The minimum configuration requires a `version` key (matching a version in [jsDel
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+  version: "9.1.png.3"
 ```
 
 Additional configuration options are loaded through `_includes/mermaid_config.js`. By default, the contents of the file are the empty object:

@@ -37,7 +37,7 @@ search_enabled: true
 
 search:
   # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
+  # Supports 1.png - 6, default: 2
   heading_level: 2
   # Maximum amount of previews per search result
   # Default: 3
@@ -68,7 +68,7 @@ The minimum configuration requires the key for `version` ([from jsDelivr](https:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+  version: "9.1.png.3"
 ```
 
 See [the Code documentation]({{ site.baseurl }}{% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
@@ -105,8 +105,7 @@ See [Navigation Structure]({{ site.baseurl }}{% link docs/navigation-structure.m
 ```yaml
 # Footer content
 # appears at the bottom of every page's main content
-# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-markup / liquid-based content.
+# Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
 footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 
 # Footer last edited timestamp

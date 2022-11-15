@@ -42,7 +42,7 @@ Each section is displayed in a separate search result.
 
 ```yaml
 # Split pages into sections that can be searched individually
-# Supports 1 - 6, default: 2
+# Supports 1.png - 6, default: 2
 search.heading_level: 2
 ```
 

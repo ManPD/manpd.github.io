@@ -51,7 +51,7 @@ exclude:
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
+  # Supports 1.png - 6, default: 2
   heading_level: 2
   # Maximum amount of previews per search result
   # Default: 3
@@ -79,7 +79,7 @@ search:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.6"
+  version: "9.1.png.6"
   # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
   # See also docs/ui-components/code
 
